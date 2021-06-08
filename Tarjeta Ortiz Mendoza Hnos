@@ -1,0 +1,14 @@
+ Pre: ---
+ * Post: Ha mostrado por pantalla las posibles
+ *       tarjetas que se pueden generar
+ */
+void presentarTarjetas(){
+    // Posicionamiento en esquina supeior izquierda
+    // Muestreo de las opciones por pantalla
+    gotoxy(3, 1);
+    cout << endl;
+    cout << " TARJETAS A GENERAR " << endl;
+    cout << " ================== " << endl;
+    cout << " 1 - Ortiz Mendoza Hnos" << endl;
+    cout << " 2 - Ortiz" << endl;
+    cout << " 3 - Mendoza" << endl;
